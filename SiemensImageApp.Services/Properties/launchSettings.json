@@ -12,7 +12,7 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "api/Image/GET",
+      "launchUrl": "api/Image",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
@@ -20,7 +20,7 @@
     "SiemensImageApp.Services": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "api/Image/GET",
+      "launchUrl": "api/Image",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
@@ -29,7 +29,7 @@
     "Docker": {
       "commandName": "Docker",
       "launchBrowser": true,
-      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/api/Image/GET",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/api/Image",
       "publishAllPorts": true,
       "useSSL": true
     }

@@ -36,6 +36,16 @@ namespace SiemensImageApp.Services
                 app.UseDeveloperExceptionPage();
             }
 
+            #region ibrahim: code added for angular error
+            //Access to XMLHttpRequest at 'https://localhost:44334/api/Image' from origin 'http://localhost:4200' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+
+            app.UseCors(x => x
+            .AllowAnyOrigin()
+            .AllowAnyMethod()
+            .AllowAnyHeader());
+
+            #endregion
+
             app.UseHttpsRedirection();
 
             app.UseRouting();
